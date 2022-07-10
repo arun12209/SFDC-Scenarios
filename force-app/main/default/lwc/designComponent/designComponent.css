@@ -1,0 +1,18 @@
+.para-header-style{
+    font-weight: bold;
+    font-family:cursive;
+    color: darkblue;
+    font-size: large;
+}
+.para-style{
+
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(8, 8, 8);
+    font-size: medium;
+}
+/* Style button components using lightning design system styling hooks */
+:host {
+    --slds-c-button-brand-color-background: purple;
+    --slds-c-button-brand-color-border: purple;
+    /* Other CSS custom properties here */
+  }

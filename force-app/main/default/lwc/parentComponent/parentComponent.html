@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Parent Component" icon-name="standard:lightning_component">
+        <p>Public property of Parent Component</p>
+        <!--Child component-->
+        <c-child-component greetings="Hello from parent component">
+        </c-child-component>
+        <!--button component-->
+        <lightning-button label="Call Child Method" onclick={handleChange}></lightning-button>
+    </lightning-card>
+</template>

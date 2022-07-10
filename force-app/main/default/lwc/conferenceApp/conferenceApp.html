@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Conference App" icon-name="standard:lightning_component">
+        <div class="slds-p-around_x-large">
+            <p class="header-para">Welcome to Salesforce Conference</p><br/>
+            
+            <c-conference-app-wrapper>
+
+            <p><b>Speakers List</b></p>
+            <c-audience-list audiences={speakerslist}></c-audience-list>
+            <p><b>Audiences List</b></p>
+            <c-audience-list audiences={audienceslist}></c-audience-list>
+
+            </c-conference-app-wrapper>
+        </div>
+    </lightning-card>
+</template>

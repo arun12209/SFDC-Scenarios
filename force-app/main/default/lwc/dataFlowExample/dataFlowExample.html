@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Data flow example" icon-name="standard:lightning_component">
+        <!--Child component: here we are pssing data for greeting and person attribute from parent to child component-->
+        <c-child-component greetings="Welcome to lightning web component tutorial"
+                        onselected={handleClickEvent} 
+        ></c-child-component>
+        <p>First Name : <b>{personData.firstName}</b></p>
+        <p>Last Name : <b>{personData.lastName}</b></p>
+        <p>Age : <b>{personData.age}</b></p>
+        <p>Eye color: <b>{personData.eyeColor}</b></p>
+    </lightning-card>
+</template>
